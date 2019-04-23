@@ -79,6 +79,20 @@
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
+
+      <trans-unit id="login" datatype="html">
+        <source>login</source><target state="final">Login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/header/header.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="signup" datatype="html">
+        <source>signup</source><target state="final">Signup</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/header/header.component.html</context>
+        </context-group>
+      </trans-unit>
+
       <trans-unit id="heroesList" datatype="html">
         <source>
           Heroes list

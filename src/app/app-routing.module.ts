@@ -2,10 +2,14 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {Error404PageComponent} from './shared/pages/error404-page/error404-page.component';
 import {HomePageComponent} from './shared/pages/home-page/home-page.component';
+import {SignupFormComponent} from './auth/signup-form/signup-form.component';
+import {LoginFormComponent} from './auth/login-form/login-form.component';
 import {AppConfig} from './configs/app.config';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent, pathMatch: 'full'},
+  {path: AppConfig.routes.signup, component: SignupFormComponent, pathMatch: 'full'},
+  {path: AppConfig.routes.login, component: LoginFormComponent, pathMatch: 'full'},
   {path: AppConfig.routes.heroes, loadChildren: './modules/heroes/heroes.module#HeroesModule'},
   {path: AppConfig.routes.error404, component: Error404PageComponent},
 

@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyC4RNNlqXSwTM1Kt6Pbgutq2yuavSQ9WnU',
-    authDomain: 'ismaestro-angularexampleapp.firebaseapp.com',
-    databaseURL: 'https://ismaestro-angularexampleapp.firebaseio.com',
-    projectId: 'ismaestro-angularexampleapp',
-    storageBucket: 'ismaestro-angularexampleapp.appspot.com',
-    messagingSenderId: '965114235515'
+    apiKey: "AIzaSyCjCX6eb2iXMG8yBASGrIaWAw9e3nkD7Ks",
+    authDomain: "tourdeparole.firebaseapp.com",
+    databaseURL: "https://tourdeparole.firebaseio.com",
+    projectId: "tourdeparole",
+    storageBucket: "tourdeparole.appspot.com",
+    messagingSenderId: "913643563971"
   }
 };
