@@ -23,7 +23,7 @@ export class LoginFormComponent implements OnInit {
       const status = 'online';
       this.authService.setUserStatus(status);
     })
-    .then(() => this.router.navigate(['/chat']))
+    .then(() => this.router.navigate(['/']))
     .catch(err => this.errorMessage = err.message);
   }
 

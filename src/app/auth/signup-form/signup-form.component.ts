@@ -26,7 +26,7 @@ export class SignupFormComponent {
       this.authService.signUpFire(email, password, displayName,"")
       .then(resolve => {
         this.errorMessage = 'Success!';
-        this.router.navigate(['/chat']);
+        this.router.navigate(['/']);
       })
       .catch(error => {
         this.errorMessage = error.message;

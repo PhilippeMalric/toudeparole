@@ -70,7 +70,7 @@ export class AuthService {
       displayName,
       status
     };
-    this.db.object(path).update(data);
+    //this.db.object(path).update(data);
   }
 
   setUserStatus(status: string): void {
