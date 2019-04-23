@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [7.1.0](https://github.com/Ismaestro/angular7-example-app/compare/v7.0.0...v7.1.0) (2019-04-23)
+
+
+### Features
+
+* **firebase:** add firebase! ([c8eaa60](https://github.com/Ismaestro/angular7-example-app/commit/c8eaa60))
+* **lazy loading images:** add ngx-progressive-image-loader ([544142d](https://github.com/Ismaestro/angular7-example-app/commit/544142d))
+* **loading states:** improve loading states ([82edffc](https://github.com/Ismaestro/angular7-example-app/commit/82edffc))
+* **sentry:** add sentry! ([d0ecb7f](https://github.com/Ismaestro/angular7-example-app/commit/d0ecb7f))
+
+
+
 <a name="7.0.0"></a>
 # [7.0.0](https://github.com/Ismaestro/angular7-example-app/compare/v6.1.0...v7.0.0) (2018-10-30)
 
